@@ -1,6 +1,6 @@
 const express = require('express');
 const { getBooks, getBookById, addBook, updateBook, deleteBook } = require('../controllers/bookController');
-const authenticateToken = require('../middleware/authMiddleware');
+const authenticateToken = require('../middelware/authMiddleware');
 
 const router = express.Router();
 
